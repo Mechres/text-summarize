@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Summarizer</h1>
+        <textarea id="input-text" rows="10" placeholder="Enter your text here..."></textarea>
+        <button id="summarize-btn">Summarize</button>
+        <div id="result">
+            <h2>Summary</h2>
+            <p id="summary-text"></p>
+            <p id="detected-language"></p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <div class="container">
+        <a href="https://github.com/Mechres">
+        <img src="https://raw.githubusercontent.com/Mechres/Mechres.github.io/9f3b73ae33fc01d108be77911d5320f708a054cf/fontawesome-6/svgs/brands/github.svg" width="50" height="50">
+        </a>
+    </div>
+</body>
+</html>
